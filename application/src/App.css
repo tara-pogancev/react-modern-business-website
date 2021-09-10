@@ -1,0 +1,13 @@
+@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
+@import url('https://fonts.googleapis.com/css?family=Encode+Sans+Expanded');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Encode Sans Expanded', sans-serif;
+}
+
+.logo-text {
+  font: 'Josefin Sans';
+}
