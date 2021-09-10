@@ -4,7 +4,7 @@ import { Nav, NavbarContainer, NavLogo, MobileIcon, NavMenu, NavItem, NavLinks, 
 import './../../App.css';
 
 
-export const Navbar = () => {
+export const Navbar = ({toggle}) => {
     return (
         <>
             <Nav>
@@ -12,7 +12,7 @@ export const Navbar = () => {
                     <NavLogo to="/">
                         <h1 className="logo-text">syntec</h1>                        
                     </NavLogo>
-                    <MobileIcon>
+                    <MobileIcon onClick={toggle}>
                         <FaBars />
                     </MobileIcon>
                     <NavMenu>
