@@ -1,13 +1,43 @@
-@import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
-@import url('https://fonts.googleapis.com/css?family=Encode+Sans+Expanded');
+@import url("https://fonts.googleapis.com/css?family=Josefin+Sans");
+@import url("https://fonts.googleapis.com/css?family=Encode+Sans+Expanded");
 
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: 'Encode Sans Expanded', sans-serif;
+  font-family: "Encode Sans Expanded", sans-serif;
 }
 
 .logo-text {
-  font: 'Josefin Sans';
+  font: "Josefin Sans";
+}
+
+.black-bg {
+  height: 100%;
+  width: 100%;
+  background: black;
+
+}
+
+.h1-hero {
+  color: #fff;
+  font-size: 48px;
+  text-align: center;
+  font-weight: bold;
+
+  @media screen and (max-width: 768px) {
+    font-size: 40px;
+  }
+
+  @media screen and (max-width: 480px) {
+    font-size: 32px;
+  }
+
+}
+
+.hero-text {
+  color: #fff;
+  font-size: 24px;
+  text-align: center;
+
 }
