@@ -13,9 +13,17 @@
 }
 
 .black-bg {
-  height: 100%;
-  width: 100%;
   background: black;
+
+}
+
+.white-bg {
+  background: white;
+
+}
+
+.primary-bg {
+  background: #B05FFD;
 
 }
 
@@ -40,4 +48,28 @@
   font-size: 24px;
   text-align: center;
 
+}
+
+.img-wrap {
+  height: 100%;
+  max-width: 700px;
+  margin: auto;
+
+}
+
+.fit-img {
+  width: 100%;
+
+}
+
+.expand-row {
+  width: 100%;
+}
+
+.white-text {
+  color: white;
+}
+
+.black-text {
+  color: black;
 }
