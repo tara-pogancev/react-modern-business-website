@@ -13,6 +13,10 @@
 
 }
 
+.center-align {
+  text-align: center;
+}
+
 .black-bg {
   background: black;
 
@@ -73,6 +77,10 @@
 
 .black-text {
   color: black;
+}
+
+.gray-text {
+  color: gray;
 }
 
 .pl {
