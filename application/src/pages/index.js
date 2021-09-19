@@ -7,6 +7,7 @@ import { Sidebar } from "./../components/sidebar";
 import Image1 from "../images/design-notes.svg";
 import Image2 from "../images/space.svg"
 import InfoSectionLight from "../components/infoSectionLight";
+import Services from "../components/services";
 
 export const Home = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -27,7 +28,7 @@ export const Home = () => {
         title="Proin condimentum diam"
         text="In luctus nibh nec metus placerat consectetur. Maecenas odio mi, ullamcorper at porta non, egestas vitae velit. Donec lacinia porta tristique. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Duis nec arcu nec diam posuere tincidunt. Nulla dignissim enim id nibh luctus, ullamcorper sagittis eros semper."
         btnText="Start today"
-      />
+      />      
       <InfoSectionLight
         image={Image2}
         id="discover"
@@ -36,6 +37,7 @@ export const Home = () => {
         text="Phasellus porta sagittis sapien. Nam quis odio eu libero tempus rutrum. Suspendisse nec eros eget ex cursus rhoncus. Proin at velit quis ante pretium porta. Quisque pulvinar, elit et tincidunt ultricies, mauris odio luctus risus, vitae auctor elit risus a tortor. Nunc pulvinar purus id est rutrum vulputate. Mauris venenatis lectus vel nisi semper scelerisque."
         btnText="Explore"
       />
+      <Services />
     </>
   );
 };
