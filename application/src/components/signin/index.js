@@ -12,7 +12,7 @@ const Signin = () => {
     <SigninContainer>
       <SigninWrapper className="py-5 px-5">
         <div className="my-auto">
-          <h3 className="center-align mb-5">Sign in to your account</h3>
+          <h3 className="center-align mb-5">Sign In to your Account</h3>
           <form>
             <SigninP>Email</SigninP>
             <SigninInput type="text" placeholder="Enter your email..." />

@@ -1,6 +1,8 @@
 # Modern Business Website (React&Bootstrap)
 
- Modern business website made using React and Bootstrap.
+ Modern responsive business website made using React and Bootstrap.
+ 
+ ![react](img/img0.jpg)
 
 
 ## Tools Used
@@ -18,4 +20,7 @@
 
 
 ## Screenshots
-...
+![react](img/img1.jpg)
+[react](img/img2.jpg)
+[react](img/img4a.jpg)
+[react](img/img4b.jpg)
