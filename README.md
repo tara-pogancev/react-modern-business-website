@@ -21,6 +21,6 @@
 
 ## Screenshots
 ![react](img/img1.jpg)
-[react](img/img2.jpg)
-[react](img/img4a.jpg)
-[react](img/img4b.jpg)
+![react](img/img2.jpg)
+![react](img/img4a.jpg)
+![react](img/img4b.jpg)
